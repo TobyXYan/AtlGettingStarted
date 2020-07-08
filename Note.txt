@@ -1,0 +1,21 @@
+1. Create an empty solution.
+
+2. Create a C++ console project 
+	AtlClientApp
+
+3. Create a ATL dll COM housing
+	AtlServerLib
+
+4. Add a simple COM Object
+	Project right click, add item, simple object
+
+5. Add two methods of Add and Sum
+	Project class view, right click on ICaculator interface, add method - Relative code would be added automatically.
+
+6. Set Linker option
+
+7. Copy AtlServerLib.tlb to the solution dir, and AtlClientApp will access to that dir to get tlb and the files parsed from this
+
+8. Set project dependency
+
+9. Flesh out client code
